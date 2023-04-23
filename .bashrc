@@ -16,9 +16,11 @@ export EDITOR=vim
 export PAGER=less
 
 #Set oh-my-posh
-eval "$(oh-my-posh init bash --config '~/.poshthemes/robbyrussell.omp.json')"
+eval "$(oh-my-posh init bash --config '~/.poshthemes/gruvbox.omp.json')"
 
 #Set transparent background of directories
 eval "$(dircolors -p | \
     sed 's/ 4[0-9];/ 01;/; s/;4[0-9];/;01;/g; s/;4[0-9] /;01 /' | \
     dircolors /dev/stdin)"
+
+export TERM=screen-256color
