@@ -5,4 +5,4 @@
     - Neovim
     - Tmux
 
-- Supported LSP is clangd
+- Package manager for Neovim : lazy
